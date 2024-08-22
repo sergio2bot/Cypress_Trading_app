@@ -1,0 +1,15 @@
+{
+  "name": "cypress_trading_app",
+  "version": "1.0.0",
+  "description": "Test task for the trading app written on Cypress +JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/cypress run --headless"
+  },
+  "author": "Sergey Koranets",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.13.3",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
